@@ -484,7 +484,7 @@ UICorner:Clone().Parent = SubmitKeyButton
 UICorner:Clone().Parent = CloseButton
 
 -- Key System Logic
-local correctKey = "12345"
+local correctKey = "S2JE5-Q9RUT-ESP"
 SubmitKeyButton.MouseButton1Click:Connect(function()
     if KeyInput.Text == correctKey then
         KeyFrame.Visible = false
